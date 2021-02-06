@@ -1,0 +1,165 @@
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-size: 80px;
+}
+
+h2 {
+	color: darkblue;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+#firstborder{
+  margin: auto;
+  border: 10px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  line-height: 16px;
+}
+
+#secondborder {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  background-color: white;
+  border: 10px solid green;
+}  
+
+.block {
+	width: 5.8%;
+}
+
+/*Hovering over login and SignUp Button turning it green*/
+.block:hover {
+	background-color: lightgreen;
+}
+
+/*Navigation Bar*/
+.topnav {			
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #004d4d;
+}
+
+.topnav ul {
+	list-style-type: none;
+}
+
+/* Hovering mouse over Navigation Bar making text lightblue*/
+.topnav a:hover {
+  color: #66e0ff;		
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.navigationlist {
+	float: left; /*Navigation Bar Horizontal*/
+}
+
+
+/*Navigation Bar Style*/
+a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/*Indication that we are on the product page of the website*/
+#productnav {
+	background-color: #00b386; 
+}
+
+h3 {
+	text-decoration: underline;
+	font-size: 40px;
+	text-align: center;
+}
+
+/* Styling the header "T-Shirt with SNS Logo"*/
+#shirtlogo {						
+	text-align:center;
+	font-size: 30px; 					
+	text-decoration: underline;
+}
+
+
+/*Materials for the T-shirt and using squares as bullet points*/
+.features ul {
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+/*Displaying image of the shirt*/
+#shirt {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 30%;
+}
+
+#headingsize {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	left: -120px;
+	font-size: 20px;
+}
+
+#colorheading {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	left: -95px;
+	font-size: 20px;
+}
+
+/*Hovering over Red Button makes it red*/
+#redcolor:hover{
+	background-color: #ff4d4d;
+}
+
+/*Hovering over Blue Button makes it blue*/
+#bluecolor:hover{
+	background-color: #1affff;
+}
+
+/*Hovering over Green Button makes it green*/
+#greencolor:hover{
+	background-color: #009933;
+}
+
+/*Hovering over Pink Button makes it pink*/
+#pinkcolor:hover{
+	background-color: pink;
+}
+
+.buttons{				
+	position: relative;
+	text-align: center;
+}
+
+/*Hovering the mouse over the "Add to Cart" and "View Similar Products" Buttons turns them lightgreen*/
+.buttons:hover {					
+	background-color: lightgreen;
+}
+
+body {
+  background-color: #e3e3e6;
+  margin: 0px;
+}
+
